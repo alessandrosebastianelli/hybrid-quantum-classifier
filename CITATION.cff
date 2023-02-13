@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Hybrid Quantum Convolutional Neural Network
+  Classifier
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - given-names: Alessandro
+    family-names: Sebastianelli
+    email: sebastianelli@unisannio.it
+    affiliation: University of Sannio
+    orcid: 'https://orcid.org/0000-0002-9252-907X'
+  - given-names: Maria Pia
+    family-names: Del Rosso
+    email: mp.delrosso@unisannio.it
+    affiliation: University of Sannio
+    orcid: 'https://orcid.org/0000-0002-0297-0102'
+  - given-names: Silvia
+    family-names: Ullo
+    email: ullo@unisannio.it
+    affiliation: University of Sannio
+    orcid: 'https://orcid.org/0000-0001-6294-0581'
+  - given-names: Paolo
+    family-names: Gamba
+    orcid: 'https://orcid.org/0000-0002-9576-6337'
+    affiliation: University of Padova
+    email: paolo.gamba@unipv.it

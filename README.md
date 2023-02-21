@@ -1,4 +1,4 @@
-# Hybrid Quantum Convolutional Neural Network Classifier
+# On Quantum Hyperparameters Selection in Hybrid Classifiers for Earth Observation Data
 **Authors: Alessandro Sebastianelli, Maria Pia Del Rosso, Silvia Ullo and Paolo Gamba**
 
 
@@ -72,15 +72,11 @@ Before running the main script you must check the [config file](config.py). This
 To cite this repository please use the 'Cite this repository' option on the right panel. 
 Please also cite the corresponding paper:
 
-    @article{frery2015successfully,
-      title={Hybrid Quantum Convolutional Neural Network for Remote Sensing Image Classification},
+    @article{sebastianelli2023quantum,
+      title={On Quantum Hyperparameters Selection in Hybrid Classifiers for Earth Observation Data},
       author={Sebastianelli, Alessandro and Del Rosso, Maria Pia and Ullo, Silvia Liberata and Gamba, Paolo},
-      journal={IEEE Geoscience and Remote Sensing Letters},
-      volume={},
-      number={},
-      pages={},
-      year={2022},
-      publisher={IEEE}
+      year={2023},
+      publisher={TechRxiv, Submitted to IEEE Geoscience and Remote Sensing Letters}
     }
 
 You may find also interesting our other works on Quantum ML4EO

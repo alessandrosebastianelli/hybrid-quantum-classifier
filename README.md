@@ -29,18 +29,17 @@ Please note that in our experiments we used a K-fold cross validation. In order 
 
 Please read the paper to get a full picture of the results, here are only reported some of them.
 
-| Model       | \# parameters | \# quantum | Accuracy |
-|-------------|---------------|------------|----------|
-| QCNN 2L-4Q  | 40 k          | 8          | 0.86     |
-| QCNN 2L-6Q  | 40 k          | 12         | 0.88     |
-| QCNN 2L-8Q  | 40 k          | 16         | 0.93     |
-| QCNN 3L-4Q  | 40 k          | 12         | 0.87     |
-| QCNN 3L-6Q  | 40 k          | 18         | 0.92     |
-| QCNN 3L-8Q  | 40 k          | 24         | 0.95     |
-| Big Model   | 2 M           | -          | 0.85     |
-| Small Model | 200 k         | -          | 0.83     |
-| LeNet-5     | 60 k          | -          | 0.68     |
-| AlexNet     | 50 M          | -          | 0.83     |
+| Model       		| \# parameters | \# quantum | Accuracy |
+|-----------------------|---------------|------------|----------|
+| QCNN 6L-7Q  		| 40 k          | 42         | 0.94     |
+| QCNN 9L-6Q  		| 40 k          | 54         | 0.95     |
+| QCNN 7L-8Q  		| 40 k          | 56         | 0.96     |
+| Zaidenberg et Al.  	| 40 k          | 2          | 0.82     |
+| Sebastianelli et Al.  | 40 k          | 8          | 0.88     |
+| Big Model   		| 2 M           | -          | 0.85     |
+| Small Model 		| 200 k         | -          | 0.83     |
+| LeNet-5     		| 60 k          | -          | 0.68     |
+| AlexNet     		| 50 M          | -          | 0.83     |
 
 
 ## Installation

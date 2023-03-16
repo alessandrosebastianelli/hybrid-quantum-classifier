@@ -19,8 +19,8 @@ NUM_QC_OUTPUTS = len(QC_OUTPUTS)
 SIMULATOR = qiskit.Aer.get_backend('qasm_simulator')
 
 #----------------------- Dataset Settings -----------------------
-training_root   = os.path.join( 'datasets', 'EuroSAT', 'training')
-validation_root = os.path.join( 'datasets', 'EuroSAT', 'validation')
+training_root   = os.path.join( 'datasets', 'VolcanicEruptionDetection', 'training')
+validation_root = os.path.join( 'datasets', 'VolcanicEruptionDetection', 'validation')
 
 CLASS_DICT = {
     "eruption":    0,

@@ -1,6 +1,7 @@
 import numpy as np
 import itertools
 import qiskit
+import glob
 import os
 
 #----------------------- Quantum Circuit Settings -----------------------
@@ -22,10 +23,12 @@ SIMULATOR = qiskit.Aer.get_backend('qasm_simulator')
 training_root   = os.path.join( 'datasets', 'VolcanicEruptionDetection', 'training')
 validation_root = os.path.join( 'datasets', 'VolcanicEruptionDetection', 'validation')
 
-CLASS_DICT = {
-    "eruption":    0,
-    "no_eruption": 1
-}
+indices, classes = [],[]
+for i, c in enumerate(glob.glob(os.path.join(training_root, '*'))):
+    indices.append(i)
+    classes.append(c.split(os.sep)[-1])
+
+CLASS_DICT = {classes[i] : indices[i] for i in range(len(indices))}
 
 #----------------------- Training Settings -----------------------
 TRAINING        = True
